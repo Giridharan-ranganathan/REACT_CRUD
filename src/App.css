@@ -1,0 +1,43 @@
+.todoDiv{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+.header{
+  text-align: center;
+  color: lightgreen;
+}
+input{
+ border: 1px solid lightgreen !important;
+}
+
+.demo{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.md-10{
+  margin-bottom: 10px;
+}
+
+.status{
+  background-color: lightcoral;
+}
+.card{
+  position: relative;
+  width: 300px;
+  min-height: 215px;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid black;
+
+  >.card-footer{
+    justify-content: right;
+    display: flex;
+    flex-wrap: wrap;
+
+  > .editbtn{
+    margin-right: 7px;
+  }
+  }
+}
